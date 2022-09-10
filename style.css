@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  max-height: 100%;
+}
+
+.hero {
+  width: 100%;
+}
+
+.img_content {
+  width: 50%;
+}
+
+.intro {
+  margin-top: 3rem;
+}
+
+.intro-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-text {
+  width: 30%;
+  opacity: 0;
+  transform: translate(20px);
+  transition: 1s all ease-in-out;
+}
+
+.intro-appear {
+  opacity: 1;
+  transform: translateY(0px);
+}
